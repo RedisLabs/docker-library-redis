@@ -1,4 +1,4 @@
-```FROM microsoft/powershell:6.0.1-nanoserver-1709
+FROM microsoft/powershell:6.0.1-nanoserver-1709
 
 USER ContainerAdministrator
 
@@ -39,4 +39,4 @@ WORKDIR C:\\data
 
 
 EXPOSE 6379
-CMD ["redis-server.exe", "C:\\Redis\\redis.docker.conf"]```
+CMD ["redis-server.exe", "C:\\Redis\\redis.docker.conf"]
